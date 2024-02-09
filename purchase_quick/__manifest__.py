@@ -5,12 +5,12 @@
 
 {
     "name": "Quick Purchase order",
-    "version": "15.0.1.0.2",
+    "version": "16.0.1.0.0",
     "author": "Akretion, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/purchase-workflow",
     "license": "AGPL-3",
     "category": "Purchase",
     "depends": ["base_product_mass_addition", "purchase"],
-    "data": ["views/purchase_view.xml", "views/product_view.xml"],
+    "data": ["views/purchase_order_view.xml", "views/product_product_view.xml"],
     "installable": True,
 }
